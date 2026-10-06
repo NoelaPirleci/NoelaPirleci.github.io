@@ -1,24 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noela Pirleci</title>
 
-    <title>Task 4 - Tailwind Centering</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
 
-    <!-- Include Tailwind CSS -->
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  </head>
+        h1 {
+            margin-bottom: 20px;
+            color: #333;
+        }
 
-  <body class="bg-gray-100">
-    <div class="flex items-center justify-center min-h-screen">
-      <div class="bg-pink-200 p-8 rounded shadow text-center">
-        <p>Centered Box (Flex)</p>
-
-        <img src="images/cat_photo.jpg" alt="A beautiful cat" class="mt-4" />
-      </div>
-    </div>
-  </body>
+        img {
+            max-width: 300px;
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body>
+    <h1>Noela-Elena Pirleci</h1>
+    <img src="images/cat_photo.jpg">
+    <p>This is a picture of a cat.</p>
+</body>
 </html>
 
 
